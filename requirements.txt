@@ -1,0 +1,22 @@
+API
+
+1. /createEvent
+    method - POST
+    params - userId, eventDetails = {
+            "title": "",
+            "eventType":"", /* In Person or Online */
+            "startDate": "",
+            "startTime": "",
+            "endDate": "",  /* optional */
+            "endTime": "",  /* optional */
+            "desc":"",  /* optional */
+            "locationType":"", /* Messenger Rooms or Facebook Live or External Link or Other */
+            "location":{
+                    "address": "",
+                    "latitude": "",
+                    "longitude": ""
+            }, /* only if eventType is In Person and it is optional */
+            "link":"", /* only if external link is selected as locationType */
+            "coverUrl":"base64Image", /* optional */
+        }
+    action - create new event     
