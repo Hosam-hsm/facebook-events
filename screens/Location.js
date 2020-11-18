@@ -11,7 +11,7 @@ import { BORDERCOLOR } from "../../constants/Colors";
 import { FloatingTitlePlaceholder, Tile, NextButton, SaveButton } from "../components";
 import { useStore } from "../store/Store";
 
-const GOOGLEAPIKEY = 'AIzaSyChumujpZ48KsRwA2R3ZEsTpsX1n7LzrN0' //should be an environment variable
+const GOOGLEAPIKEY = 'YOUR_KEY' //should be an environment variable
 
 const TILES = [
     {
