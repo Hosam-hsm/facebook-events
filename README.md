@@ -9,6 +9,7 @@ Facebook events module implemented using React Native
 * Run the code.
 
 <b>Screenshots</b>
+<br><br>
 ![Select event type screen](assets/Select-type.png)
 ![Add details screen](assets/Add-details.png)
 ![Add time screen](assets/Add-time.png)
